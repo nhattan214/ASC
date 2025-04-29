@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>Federation-University-logo.png</file>
+  </qresource>
+</RCC>
