@@ -13,8 +13,36 @@ This tool can be used in tandem with DigSILENT PowerFactory. A short technical p
 - The source code is developed in Python 3.11 (details of the libraries used can be view in the Python code file). The GUI is developed by PyQT5.
 - The tool is portable, no installation is required. Currently, the tool can only be used on Windows.
 
-## Main developer 
+## An overview of the user interface and how to use the ASC
+Stage 1: 
 
+At this stage, users can simply put the input Excel file into the same folder which contains the ASC for easy browsing, or they can click on "Browse" and find their input Excel file.
+Note that the input Excel file should follow the simple structure as shown in the next figure. In our case study, the profiles (time series) has a 30-min resolution. This can be easily modified in the source code according to your needs.
+
+The step to perform time aggregation is: Browse for input Excel file -> Plot (optional step) -> Calculate the optimal number of cluster -> Generate representative profiles -> Save (optional, use this if you want to export the representative profiles to Excel files)
+
+![Image](https://github.com/user-attachments/assets/b663626a-e865-4a01-8813-24805b6c2992)
+
+Excel file format 
+
+![Image](https://github.com/user-attachments/assets/377e45a3-8abd-4fa0-8c10-d9c98e1b2336)
+
+Stage 2
+
+Firstly, make sure that you follow the steps in Stage 1, since in this stage, the tool uses the representative profiles generated in Stage 1 (the representative profiles are saved internally when you click on "Generate representative profiles").
+
+Secondly, provide the link to the PowerFactory's Python API, and the name of the **case study** associated with your model file (this name is obtained when you activate your pfd file inside DigSILENT PowerFactory). The "Security check" is optional, you can directly calculate the ancillary services by providing your desired parameters, and click on "Calculate".
+
+
+
+![Image](https://github.com/user-attachments/assets/5b06e186-f4cf-4e9e-89f1-181bd8aa9ecf)
+
+
+## Main developer 
+- Any issues or suggestions please feel free to contact [Tan Nhat Pham](https://github.com/nhattan214)
+
+## Further development
+I am working on newer versions that allow the ASC to be used with pandapower, or MATPOWER.
 
 ## License info
 This project has been developed in the Center for New Energy Transition Research (CfNETR), Federation University Australia, and it is licensed under the terms of the MIT License.
