@@ -19,7 +19,7 @@ Stage 1:
 At this stage, users can simply put the input Excel file into the same folder which contains the ASC for easy browsing, or they can click on "Browse" and find their input Excel file.
 Note that the input Excel file should follow the simple structure as shown in the next figure. In our case study, the profiles (time series) has a 30-min resolution. This can be easily modified in the source code according to your needs.
 
-The step to perform time aggregation is: Browse for input Excel file -> Plot (optional step) -> Calculate the optimal number of cluster -> Generate representative profiles -> Save (optional, use this if you want to export the representative profiles to Excel files)
+The steps to perform time aggregation are: Browse for input Excel file -> Plot (optional step) -> Calculate the optimal number of cluster -> Generate representative profiles -> Save (optional, use this if you want to export the representative profiles to Excel files)
 
 ![Image](https://github.com/user-attachments/assets/b663626a-e865-4a01-8813-24805b6c2992)
 
