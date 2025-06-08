@@ -407,7 +407,7 @@
        <rect>
         <x>40</x>
         <y>170</y>
-        <width>501</width>
+        <width>511</width>
         <height>21</height>
        </rect>
       </property>
@@ -417,7 +417,7 @@
        </font>
       </property>
       <property name="text">
-       <string>· The percentage of total customers willing to participate demand response</string>
+       <string>· The percentage of total customers willing to participate in demand response</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_13">
@@ -1012,7 +1012,7 @@
        </font>
       </property>
       <property name="text">
-       <string>· Total ESS capacity</string>
+       <string>· Total energy storage system (ESS) capacity</string>
       </property>
      </widget>
      <widget class="QLineEdit" name="total_ess_capacity">
