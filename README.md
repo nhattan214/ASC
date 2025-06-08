@@ -14,7 +14,7 @@ This tool can be used in tandem with DigSILENT PowerFactory. A short technical p
 - The tool is portable, no installation is required. Currently, the tool can only be used on Windows.
 
 ## An overview of the user interface and how to use the ASC
-**Stage 1: **
+**Stage 1**:
 
 At this stage, users can simply put the input Excel file into the same folder which contains the ASC for easy browsing, or they can click on "Browse" and find their input Excel file.
 Note that the input Excel file should follow the simple structure as shown in the next figure. In our case study, the profiles (time series) has a 30-min resolution. This can be easily modified in the source code according to your needs.
